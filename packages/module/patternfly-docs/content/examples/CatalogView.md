@@ -3,8 +3,8 @@ id: Overview
 title: Catalog view overview
 section: extensions
 subsection: Catalog view
-source: react
 sortValue: 1
+source: react
 ---
 
 import FilterIcon from '@patternfly/react-icons/dist/esm/icons/filter-icon';
@@ -30,7 +30,7 @@ To use the catalog view extension components with the proper styles, import the 
 
 --- 
 
-## Demo
+### Demo
 
 ```ts isFullscreen
 import React from 'react';
