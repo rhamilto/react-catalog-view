@@ -1,8 +1,10 @@
 ---
-id: Catalog view demo
+id: Overview
+title: Catalog view overview
 section: extensions
 subsection: Catalog view
 source: react
+sortValue: 1
 ---
 
 import FilterIcon from '@patternfly/react-icons/dist/esm/icons/filter-icon';
@@ -20,11 +22,15 @@ VerticalTabsTab
 } from '@patternfly/react-catalog-view-extension';
 import pfLogo6 from './pfLogo6.svg';
 
-## Catalog view
+**Note:** Catalog view lives in its own package [`@patternfly/react-catalog-view-extension`](https://www.npmjs.com/package/@patternfly/react-catalog-view-extension)
 
-To use the catalog view extension components, you need to import the CSS file into your project to get the proper styles: `import '@patternfly/react-catalog-view-extension/dist/css/react-catalog-view-extension.css';`
+A **catalog view** is a UI layout centered around a gallery of [catalog tiles](/extensions/catalog-view/catalog-tile). To let users interact with the gallery, a catalog view can include a toolbar with support for user actions and input, a [filter side panel](/extensions/catalog-view/filter-side-panel) with [vertical tabs](/extensions/catalog-view/vertical-tabs), and a [properties side panel](/extensions/catalog-view/properties-side-panel)  that provides details about the selected tile.  
 
-### Catalog view demo
+To use the catalog view extension components with the proper styles, import the CSS file into your project: `import '@patternfly/react-catalog-view-extension/dist/css/react-catalog-view-extension.css';`
+
+--- 
+
+## Demo
 
 ```ts isFullscreen
 import React from 'react';
