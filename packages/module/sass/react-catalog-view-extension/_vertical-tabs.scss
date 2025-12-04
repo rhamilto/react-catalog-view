@@ -31,13 +31,8 @@
     &::after {
       content: '';
       position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      border-width: var(--pf-t--global--border--width--high-contrast--regular);
-      border-style: solid;
-      border-color: transparent;
+      inset: 0;
+      border: var(--pf-t--global--border--width--action--plain--default) solid var(--pf-t--global--border--color--high-contrast);
       border-radius: inherit;
       pointer-events: none;
     }
@@ -49,6 +44,7 @@
 
       &::after {
         border-color: var(--pf-t--global--border--color--high-contrast);
+        border-width: var(--pf-t--global--border--width--action--plain--hover);
       }
     }
 
