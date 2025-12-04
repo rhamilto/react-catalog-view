@@ -11,17 +11,12 @@
 
 .vertical-tabs-pf-tab {
   margin-block-start: var(--pf-t--global--spacer--sm);
-  // margin-inline-start: var(--pf-t--global--spacer--md);
   padding-inline-start: 0;
   position: relative;
 
   & .vertical-tabs-pf-tab {
     margin-inline-start: var(--pf-t--global--spacer--md);
   }
-
-  // & .vertical-tabs-pf-tab > a {
-  //   margin-inline-start: var(--pf-t--global--spacer--md);
-  // }
 
   > a {
     color: var( --pf-t--global--text--color--regular);
