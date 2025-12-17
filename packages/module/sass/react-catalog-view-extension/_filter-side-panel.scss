@@ -31,10 +31,6 @@
     margin-block-start: 0;
   }
 
-  &:hover {
-    background-color: var(--pf-t--global--background--color--action--plain--hover);
-  }
-
   .pf-v6-c-check__label {
     min-height: var(--pf-t--global--spacer--md);
     padding: var(--pf-t--global--spacer--sm) var(--pf-t--global--spacer--xs);
